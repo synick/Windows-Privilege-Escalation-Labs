@@ -1,6 +1,6 @@
 # Windows Privilege Escalation Labs
 
-The Windows labs make use of modified Microsoft modern.ie virtual machines hosted in Vagrant Cloud.
+The Windows labs make use of modified Microsoft modern.ie virtual machines hosted in Vagrant Cloud. Updates will be on my blog [https://blog.pentester.com.au](https://blog.pentester.com.au)
 
 ## Getting Started
 
