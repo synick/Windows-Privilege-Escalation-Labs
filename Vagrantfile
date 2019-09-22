@@ -28,7 +28,7 @@ DifficultyIndex = ENV['Difficulty'].to_i
   
   Vagrant.configure("2") do |config|
     config.vm.box = "synick/Windows7PrivEsc"
-	  config.vm.box_version = "1.1"
+    config.vm.box_version = "1.1"
     config.vm.communicator = "winrm"
     config.winrm.username = "IEUser"
     config.winrm.password = "Passw0rd!"
@@ -48,6 +48,7 @@ DifficultyIndex = ENV['Difficulty'].to_i
     config.vm.provision "shell", inline: "del C:/tmp/\*"
     config.vm.provision "shell", path: "./labfiles/Rearm.ps1"
     config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
     vb.memory = "2048"
     vb.customize ["modifyvm", :id, "--vram", "128"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
