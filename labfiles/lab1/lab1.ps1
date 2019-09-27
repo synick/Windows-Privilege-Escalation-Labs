@@ -1,5 +1,6 @@
 # Lab 1 - Information Leakage
 # Here be spoliers, if you are really really stuck then you can have a look here. Otherwise, keep trying.
+# For more information, have a look at: https://blog.pentester.com.au/2019/09/Lab-1-WindowsPrivEsc/
 
 
 
