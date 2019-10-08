@@ -1,0 +1,1092 @@
+<AppLockerPolicy Version="1">
+  <RuleCollection Type="Dll" EnforcementMode="NotConfigured" />
+  <RuleCollection Type="Exe" EnforcementMode="Enabled">
+    <FilePublisherRule Id="001ad602-cf07-4cba-aa5e-66b80c5c326e" Name="Program Files: ADOBE SELF EXTRACTOR signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE SELF EXTRACTOR" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="06ce756c-0c79-4943-9d4b-74cd9baf3b98" Name="Windows: EULA signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="EULA" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="07a5119e-b868-4b83-92dc-bb3cea961555" Name="Program Files: PUTTY SUITE signed by O=SIMON TATHAM, L=CAMBRIDGE, S=CAMBRIDGESHIRE, C=GB" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=SIMON TATHAM, L=CAMBRIDGE, S=CAMBRIDGESHIRE, C=GB" ProductName="PUTTY SUITE" BinaryName="*">
+          <BinaryVersionRange LowSection="0.70.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="09741ea4-92f2-4ca4-93d8-da24308d3b91" Name="Program Files: GOOGLE CHROME signed by O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" ProductName="GOOGLE CHROME" BinaryName="*">
+          <BinaryVersionRange LowSection="72.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="11ae57a3-218a-4503-8355-88a83007503e" Name="Program Files: LOGTRANSPORT APPLICATION signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="LOGTRANSPORT APPLICATION" BinaryName="*">
+          <BinaryVersionRange LowSection="7.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="133666e0-1aa8-4077-9e7d-a2fd8d55ed8b" Name="Windows: WINDOWS INSTALLER - UNICODE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS INSTALLER - UNICODE" BinaryName="*">
+          <BinaryVersionRange LowSection="5.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="174fd6f1-d403-4165-8abf-879f57ef11f5" Name="Program Files: FIREFOX signed by O=MOZILLA CORPORATION, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MOZILLA CORPORATION, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" ProductName="FIREFOX" BinaryName="*">
+          <BinaryVersionRange LowSection="1.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="1c6bb3b8-5e8a-44ea-a5dd-805b7bb9657b" Name="Program Files: STEAM CLIENT BOOTSTRAPPER signed by O=VALVE, L=BELLEVUE, S=WA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, L=BELLEVUE, S=WA, C=US" ProductName="STEAM CLIENT BOOTSTRAPPER" BinaryName="*">
+          <BinaryVersionRange LowSection="4.93.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="1dab8117-ec4b-498d-b70b-24c590d2db0b" Name="Program Files: ORACLE VM VIRTUALBOX GUEST ADDITIONS signed by O=ORACLE CORPORATION, L=REDWOOD SHORES, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE CORPORATION, L=REDWOOD SHORES, S=CALIFORNIA, C=US" ProductName="ORACLE VM VIRTUALBOX GUEST ADDITIONS" BinaryName="*">
+          <BinaryVersionRange LowSection="5.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="1e7ddf1e-44c7-4a98-abbc-e6130b326cea" Name="Program Files: ADOBE PDF BROKER PROCESS FOR INTERNET EXPLORER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE PDF BROKER PROCESS FOR INTERNET EXPLORER" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="217766cd-59f9-4f72-aed1-43195d31a808" Name="Program Files: EULA signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="EULA" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="231a187c-09b0-4e89-a9cc-01557a599abe" Name="Program Files: DISTNOTED signed by O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" ProductName="DISTNOTED" BinaryName="*">
+          <BinaryVersionRange LowSection="1.630.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="262b06ad-e298-4fd5-9623-782a30fbca4c" Name="Program Files: ADOBE ACROBAT READER DC signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT READER DC" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="28b4ed49-49eb-4594-ba0c-f58a790a32d1" Name="Windows: PRINTBRM APPLICATION signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="PRINTBRM APPLICATION" BinaryName="*">
+          <BinaryVersionRange LowSection="1.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="29081be5-9a62-4790-a8b4-71844ad3183c" Name="Windows: ADOBE ACROBAT signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="2bb5ace5-240f-41ec-ad17-12a716106679" Name="Program Files: OFFICE LICENSING ADMIN ACCESS PROVIDER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="OFFICE LICENSING ADMIN ACCESS PROVIDER" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="2ea62557-ae9f-4abb-acf8-b41b94206a43" Name="Program Files: GOOGLE UPDATE signed by O=GOOGLE INC, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=GOOGLE INC, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" ProductName="GOOGLE UPDATE" BinaryName="*">
+          <BinaryVersionRange LowSection="1.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="301f264b-420a-4eee-bb45-f298841e49db" Name="Windows: LOGTRANSPORT APPLICATION signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="LOGTRANSPORT APPLICATION" BinaryName="*">
+          <BinaryVersionRange LowSection="7.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="32fda6b2-07ca-45fb-a9f1-1662f925767f" Name="Program Files: VLC MEDIA PLAYER signed by O=VIDEOLAN, L=PARIS, C=FR" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VIDEOLAN, L=PARIS, C=FR" ProductName="VLC MEDIA PLAYER" BinaryName="*">
+          <BinaryVersionRange LowSection="3.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="3416f2b9-9b2b-4005-8009-5fe17d93ea33" Name="Program Files: MICROSOFT ONENOTE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT ONENOTE" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="34bb08fb-2e10-45cd-b8ff-c9b1b43105ec" Name="Windows: ADOBE ACROBAT TEXT EXTRACTOR FOR NON-PDF FILES signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT TEXT EXTRACTOR FOR NON-PDF FILES" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="35d1cebd-ae67-4925-9524-027edb06e610" Name="Windows: TWAIN THUNKER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="TWAIN THUNKER" BinaryName="*">
+          <BinaryVersionRange LowSection="1.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="3bd43e97-b46e-471a-8600-285e71e95cd3" Name="Program Files: OFFICE SUBSCRIPTION LICENSING HEARTBEAT signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="OFFICE SUBSCRIPTION LICENSING HEARTBEAT" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="3c63fce8-8cd6-40db-9dcc-58f70e8faf31" Name="Program Files: MICROSOFT VISUAL C++ 2017 REDISTRIBUTABLE (X86) - 14.16.27024 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT VISUAL C++ 2017 REDISTRIBUTABLE (X86) - 14.16.27024" BinaryName="*">
+          <BinaryVersionRange LowSection="14.16.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="3e19af8c-b881-4af7-958d-b207120356be" Name="Program Files: STEAM CLIENT SERVICE signed by O=VALVE, L=BELLEVUE, S=WA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, L=BELLEVUE, S=WA, C=US" ProductName="STEAM CLIENT SERVICE" BinaryName="*">
+          <BinaryVersionRange LowSection="4.93.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="42588881-8073-4bbb-9bb0-714b2279d3d2" Name="Program Files: STEAM signed by O=VALVE, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, S=WASHINGTON, C=US" ProductName="STEAM" BinaryName="*">
+          <BinaryVersionRange LowSection="1.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="45aaf7dd-105e-4d25-8328-bfabec8ed897" Name="Program Files: SYSINTERNALS JUNCTION signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SYSINTERNALS JUNCTION" BinaryName="*">
+          <BinaryVersionRange LowSection="1.6.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="53d4e074-3c90-4f96-ac56-17f59e4447cb" Name="Windows: SYSINTERNALS SDELETE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SYSINTERNALS SDELETE" BinaryName="*">
+          <BinaryVersionRange LowSection="1.61.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="57b176c7-3d97-40ce-a1ae-ee9a578a188a" Name="Program Files: JAVA(TM) PLATFORM SE 8 signed by O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" ProductName="JAVA(TM) PLATFORM SE 8" BinaryName="*">
+          <BinaryVersionRange LowSection="8.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="57f86858-2857-4302-aa89-f198c2481891" Name="Program Files: STEAM HTML5 APP signed by O=VALVE, L=BELLEVUE, S=WA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, L=BELLEVUE, S=WA, C=US" ProductName="STEAM HTML5 APP" BinaryName="*">
+          <BinaryVersionRange LowSection="4.93.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="5a9cba91-b1be-4a99-986d-00114cf9bbbf" Name="Program Files: THUNDERBIRD signed by O=MOZILLA CORPORATION, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MOZILLA CORPORATION, L=MOUNTAIN VIEW, S=CALIFORNIA, C=US" ProductName="THUNDERBIRD" BinaryName="*">
+          <BinaryVersionRange LowSection="1.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="5aa5f6a4-b23a-4eff-bb6a-e2fdb2319d64" Name="Program Files: GOOGLE CHROME INSTALLER signed by O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" ProductName="GOOGLE CHROME INSTALLER" BinaryName="*">
+          <BinaryVersionRange LowSection="72.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="5b0be81c-42a2-440c-acea-ded333d134b4" Name="Program Files: WINGUP FOR NOTEPAD++ signed by O=NOTEPAD++, L=SAINT CLOUD, S=ILE-DE-FRANCE, C=FR" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=NOTEPAD++, L=SAINT CLOUD, S=ILE-DE-FRANCE, C=FR" ProductName="WINGUP FOR NOTEPAD++" BinaryName="*">
+          <BinaryVersionRange LowSection="5.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="5daa3c18-f2fe-43bf-8e55-f7588b08efe3" Name="Windows: ADOBE® FLASH® PLAYER UPDATE SERVICE signed by O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE® FLASH® PLAYER UPDATE SERVICE" BinaryName="*">
+          <BinaryVersionRange LowSection="32.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="5e1af395-067e-43e9-b6c3-3766596d9b3b" Name="Program Files: CHECKSUM signed by O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" ProductName="CHECKSUM" BinaryName="*">
+          <BinaryVersionRange LowSection="0.2.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="61f2a477-9161-4e12-b132-24e18e05b809" Name="Windows: ADOBE ACROBAT READER DC signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT READER DC" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="66149671-2feb-4721-9f1f-a4413d256344" Name="Program Files: BOOTSTRAPPER SMALL signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="BOOTSTRAPPER SMALL" BinaryName="*">
+          <BinaryVersionRange LowSection="19.8.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="662e048f-06f4-4711-ab4a-5b2aebe0050a" Name="Windows: ADOBE READER WOW HELPER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE READER WOW HELPER" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="663c5a90-3fc8-4ee6-a977-2e1a9694d79e" Name="Program Files: WATSON SUBSCRIBER FOR SENS NETWORK NOTIFICATIONS signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WATSON SUBSCRIBER FOR SENS NETWORK NOTIFICATIONS" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="66d4f0dd-3c4e-4099-ae4c-a09199a0a985" Name="Windows: MICROSOFT® .NET FRAMEWORK 4.5 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® .NET FRAMEWORK 4.5" BinaryName="*">
+          <BinaryVersionRange LowSection="12.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="6a4094f9-2983-43b2-90d9-ac11cc2f778a" Name="Windows: MICROSOFT® DRM signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® DRM" BinaryName="*">
+          <BinaryVersionRange LowSection="11.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="722cbdb6-42f6-43ea-8825-11c1e8ffede2" Name="Windows: ADOBE PDF BROKER PROCESS FOR INTERNET EXPLORER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE PDF BROKER PROCESS FOR INTERNET EXPLORER" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="73dd47ff-a413-4052-a246-9999809f0b54" Name="Windows: WINDOWS DISK DEFRAGMENTER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS DISK DEFRAGMENTER" BinaryName="*">
+          <BinaryVersionRange LowSection="6.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="74310db1-75ce-4687-b297-2477da05689d" Name="Windows: MICROSOFT ® WINDOWS SCRIPT HOST signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT ® WINDOWS SCRIPT HOST" BinaryName="*">
+          <BinaryVersionRange LowSection="5.8.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="764067a4-68d6-43fe-9e9c-0f4d8c1f5842" Name="Windows: MICROSOFT® WINDOWS® OPERATING SYSTEM signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" BinaryName="*">
+          <BinaryVersionRange LowSection="0.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="76fd0124-e4bf-40ec-a188-d53d4764f016" Name="Program Files: MICROSOFT OFFICE 2016 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT OFFICE 2016" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="794da920-c90c-4aff-8a75-f88161abe7e5" Name="Program Files: MICROSOFT OFFICE INFOPATH signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT OFFICE INFOPATH" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="79d12550-78b9-44aa-9713-1442fe1f85ff" Name="Windows: MICROSOFT WINDOWS IDENTITY MANAGEMENT FOR UNIX signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT WINDOWS IDENTITY MANAGEMENT FOR UNIX" BinaryName="*">
+          <BinaryVersionRange LowSection="6.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="81245a16-b477-4fc3-aa01-42a7e93e6015" Name="Program Files: WINDOWS LIVE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS LIVE" BinaryName="*">
+          <BinaryVersionRange LowSection="17.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="87931a84-a378-43cd-a33a-b29161b141e9" Name="Windows: REMOTEFX HELPER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="REMOTEFX HELPER" BinaryName="*">
+          <BinaryVersionRange LowSection="1.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="8e5573ab-8a9c-4b48-a4d2-98fecb55c6ce" Name="Program Files: MICROSOFT OUTLOOK signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT OUTLOOK" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="8eb609b6-cb85-4a0a-9579-ccc4f53c6150" Name="Windows: GOOGLE CHROME INSTALLER signed by O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=GOOGLE LLC, L=MOUNTAIN VIEW, S=CA, C=US" ProductName="GOOGLE CHROME INSTALLER" BinaryName="*">
+          <BinaryVersionRange LowSection="72.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="8f1a9486-9822-4d86-9a31-fa60a95ba0b2" Name="Program Files: STEAM CLIENT WEBHELPER signed by O=VALVE, L=BELLEVUE, S=WA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, L=BELLEVUE, S=WA, C=US" ProductName="STEAM CLIENT WEBHELPER" BinaryName="*">
+          <BinaryVersionRange LowSection="4.93.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="8f721fbe-d6bb-49bd-abf9-d3262b3f9d45" Name="Program Files: MICROSOFT ONEDRIVE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT ONEDRIVE" BinaryName="*">
+          <BinaryVersionRange LowSection="17.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="901e64fd-3ac8-47a4-bf60-b2fc2ac49e42" Name="Windows: MICROSOFT ROBOCOPY signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT ROBOCOPY" BinaryName="*">
+          <BinaryVersionRange LowSection="5.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="91daa22b-f875-405b-a1db-2887c525841e" Name="Program Files: BGINFO signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="BGINFO" BinaryName="*">
+          <BinaryVersionRange LowSection="4.26.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="93a1a010-f9ad-4263-8d6d-c32a1c1e5d0b" Name="Program Files: MICROSOFT® OFFICE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® OFFICE" BinaryName="*">
+          <BinaryVersionRange LowSection="15.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="945cefca-ce62-4342-b788-358911d6a4be" Name="Program Files: JAVA PLATFORM SE 8 U201 signed by O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" ProductName="JAVA PLATFORM SE 8 U201" BinaryName="*">
+          <BinaryVersionRange LowSection="8.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9a791378-5ae2-41c4-a8e9-9e04dd74eec2" Name="Program Files: MICROSOFT APPLICATION ERROR REPORTING signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT APPLICATION ERROR REPORTING" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9adecdda-5c37-4bd3-b187-08aba4cd045f" Name="Windows: MICROSOFT MALWARE PROTECTION signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT MALWARE PROTECTION" BinaryName="*">
+          <BinaryVersionRange LowSection="1.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9b8e7584-4885-4052-a2db-bc8f9952b48a" Name="Windows: WINDOWS® INTERNET EXPLORER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS® INTERNET EXPLORER" BinaryName="*">
+          <BinaryVersionRange LowSection="8.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9bf58788-e3eb-4e6b-8d35-4271a677d55c" Name="Program Files: OFFICE SOURCE ENGINE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="OFFICE SOURCE ENGINE" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9d892a44-c905-4bd5-b0ac-82298e038fb6" Name="Windows: MICROSOFT® VISUAL STUDIO® 2008 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® VISUAL STUDIO® 2008" BinaryName="*">
+          <BinaryVersionRange LowSection="9.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="9f9f87e2-99fa-4aed-aa8c-59ffa76d038d" Name="Windows: ADOBE® FLASH® PLAYER INSTALLER/UNINSTALLER signed by O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE® FLASH® PLAYER INSTALLER/UNINSTALLER" BinaryName="*">
+          <BinaryVersionRange LowSection="32.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a074784f-21c2-4097-aa2b-84d9d74fb602" Name="Program Files: DEFAULTS signed by O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" ProductName="DEFAULTS" BinaryName="*">
+          <BinaryVersionRange LowSection="1.830.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a4d34aae-853d-4c68-865f-8db52148e454" Name="Program Files: STEAM signed by O=VALVE, L=BELLEVUE, S=WA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=VALVE, L=BELLEVUE, S=WA, C=US" ProductName="STEAM" BinaryName="*">
+          <BinaryVersionRange LowSection="2.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a50d8f8a-cc46-4914-b55c-a1dd726f0f56" Name="Windows: WINDOWS® SEARCH signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS® SEARCH" BinaryName="*">
+          <BinaryVersionRange LowSection="7.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a5cd022c-3480-40c5-8763-bbfd789fab5f" Name="Windows: ADOBE FLASH PLAYER CONTROL PANEL APPLET signed by O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE FLASH PLAYER CONTROL PANEL APPLET" BinaryName="*">
+          <BinaryVersionRange LowSection="32.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a7e607ad-97cd-4711-88dc-819911307473" Name="Windows: INTERNET INFORMATION SERVICES signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="INTERNET INFORMATION SERVICES" BinaryName="*">
+          <BinaryVersionRange LowSection="7.5.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="a9894497-cca3-4a98-a9a2-5348c2d13b46" Name="Windows: MICROSOFT WINDOWS SUBSYSTEM FOR UNIX-BASED APPLICATIONS signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT WINDOWS SUBSYSTEM FOR UNIX-BASED APPLICATIONS" BinaryName="*">
+          <BinaryVersionRange LowSection="6.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="ab412d6a-c608-4350-9cc3-da92d4bca004" Name="Program Files: MICROSOFT SQL SERVER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT SQL SERVER" BinaryName="*">
+          <BinaryVersionRange LowSection="2018.150.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="af59b337-f30c-4842-99ae-02679c250cca" Name="Program Files: APPLE PUSH signed by O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" ProductName="APPLE PUSH" BinaryName="*">
+          <BinaryVersionRange LowSection="2.2.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b1111cdd-3258-4de3-bdfb-586a07193c6b" Name="Program Files: TREESIZE FREE signed by O=JAM SOFTWARE GMBH, L=TRIER, S=RHEINLAND-PFALZ, C=DE" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=JAM SOFTWARE GMBH, L=TRIER, S=RHEINLAND-PFALZ, C=DE" ProductName="TREESIZE FREE" BinaryName="*">
+          <BinaryVersionRange LowSection="4.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b1dbd57a-e3c8-4308-b329-3dbd7009c8ab" Name="Program Files: ADOBE ACROBAT 32BITMAPIBROKER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT 32BITMAPIBROKER" BinaryName="*">
+          <BinaryVersionRange LowSection="15.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b232f8ff-78e2-407c-bf61-0c6b2622c18e" Name="Program Files: MSO signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MSO" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b28ea588-7751-4881-9139-2f2dd6321309" Name="Windows: HTML HELP signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="HTML HELP" BinaryName="*">
+          <BinaryVersionRange LowSection="6.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b89f0597-f3c4-4355-a7a9-e02ae230a197" Name="Program Files: MICROSOFT OFFICE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT OFFICE" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b8ee3b11-21ee-49ad-b8d4-84351865221d" Name="Program Files: ADOBE ACROBAT TEXT EXTRACTOR FOR NON-PDF FILES signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT TEXT EXTRACTOR FOR NON-PDF FILES" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b91fd157-d40f-4a97-9429-94e03004fc6f" Name="Program Files: ADOBE ACROBAT signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE ACROBAT" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b926a582-2ae8-45a2-be5e-814c1633ec88" Name="Windows: SBESERVER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SBESERVER" BinaryName="*">
+          <BinaryVersionRange LowSection="0.9.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="b9f7fc14-103e-4a6e-9c59-904fd29eecef" Name="Program Files: JAVA PLATFORM SE AUTO UPDATER signed by O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" ProductName="JAVA PLATFORM SE AUTO UPDATER" BinaryName="*">
+          <BinaryVersionRange LowSection="2.8.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="be4e0b1b-0b07-4dd8-9d26-80f22679d473" Name="Program Files: MICROSOFT® VISUAL STUDIO® 2010 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® VISUAL STUDIO® 2010" BinaryName="*">
+          <BinaryVersionRange LowSection="10.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="be7bd5e5-0b27-4d87-8fa4-08b9c5b4efc4" Name="Windows: ORACLE VM VIRTUALBOX GUEST ADDITIONS signed by O=ORACLE CORPORATION, L=REDWOOD SHORES, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE CORPORATION, L=REDWOOD SHORES, S=CALIFORNIA, C=US" ProductName="ORACLE VM VIRTUALBOX GUEST ADDITIONS" BinaryName="*">
+          <BinaryVersionRange LowSection="5.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="be941d87-b45b-4f42-8092-22348825e26c" Name="Windows: MICROSOFT (R) WINDOWS (R) OPERATING SYSTEM signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT (R) WINDOWS (R) OPERATING SYSTEM" BinaryName="*">
+          <BinaryVersionRange LowSection="6.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="c144d2ea-b8f7-49ff-80b1-f741a16d9ae3" Name="Windows: DIVA FOR WINDOWS - VERSION 7.7 I386 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="DIVA FOR WINDOWS - VERSION 7.7 I386" BinaryName="*">
+          <BinaryVersionRange LowSection="4.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="c1ab6249-a1ca-4118-8cad-47595bcce3e4" Name="Program Files: ADOBE READER AND ACROBAT MANAGER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE READER AND ACROBAT MANAGER" BinaryName="*">
+          <BinaryVersionRange LowSection="1.824.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="c398caa4-3c55-4712-aa21-e10737e088d0" Name="Program Files: ADELRCP DYNAMIC LINK LIBRARY signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADELRCP DYNAMIC LINK LIBRARY" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="caba8cff-fa2c-44b3-b78f-84d2d171d686" Name="Program Files: CHOCOLATEY signed by O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" ProductName="CHOCOLATEY" BinaryName="*">
+          <BinaryVersionRange LowSection="0.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="cb057044-b2b9-41da-a880-39f93a001923" Name="Windows: ADELRCP DYNAMIC LINK LIBRARY signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADELRCP DYNAMIC LINK LIBRARY" BinaryName="*">
+          <BinaryVersionRange LowSection="15.7.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="ce52b099-d349-4293-a5ed-9ffe4ee9fdd7" Name="Windows: MICROSOFT® .NET FRAMEWORK signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® .NET FRAMEWORK" BinaryName="*">
+          <BinaryVersionRange LowSection="2.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="d5579f4d-e7fc-48f3-aba4-fa67f6caff08" Name="Program Files: JAVA(TM) PLATFORM SE 8 U201 signed by O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ORACLE AMERICA, INC., L=REDWOOD CITY, S=CALIFORNIA, C=US" ProductName="JAVA(TM) PLATFORM SE 8 U201" BinaryName="*">
+          <BinaryVersionRange LowSection="11.201.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="d6f6a48b-ec84-4389-94c5-d09487a43cac" Name="Program Files: MICROSOFT® WINDOWS® OPERATING SYSTEM signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" BinaryName="*">
+          <BinaryVersionRange LowSection="0.3.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="d8817abc-bfd6-42e9-b523-0c7dc8543e0a" Name="Program Files: QUICKTIME signed by O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" ProductName="QUICKTIME" BinaryName="*">
+          <BinaryVersionRange LowSection="7.79.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="db3277ab-b1e7-4cf7-b6d8-45210d9ba544" Name="Windows: MICROSOFT WINDOWS MALICIOUS SOFTWARE REMOVAL TOOL signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT WINDOWS MALICIOUS SOFTWARE REMOVAL TOOL" BinaryName="*">
+          <BinaryVersionRange LowSection="5.28.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="dbaa3b65-5dfd-4558-8aa6-a2d8fb37608d" Name="Program Files: WINDOWS® INTERNET EXPLORER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="WINDOWS® INTERNET EXPLORER" BinaryName="*">
+          <BinaryVersionRange LowSection="10.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="dce4e868-fad0-4a59-ae65-75a4cfb04bac" Name="Program Files: SKYPE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SKYPE" BinaryName="*">
+          <BinaryVersionRange LowSection="8.39.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="dfef2ddf-26cb-4dab-b041-8f9a58698deb" Name="Program Files: ADOBE CREATE PDF signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE CREATE PDF" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="e033b44a-02f8-4a32-9b92-e4d2211f7cf5" Name="Program Files: MICROSOFT CLICKTORUN VIRTUALIZATION OPTIMIZATION signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT CLICKTORUN VIRTUALIZATION OPTIMIZATION" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="e0f2f77c-e94d-45f4-b1f2-77fe3c42ffd6" Name="Program Files: MICROSOFT APPLICATION VIRTUALIZATION (APP-V) signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT APPLICATION VIRTUALIZATION (APP-V)" BinaryName="*">
+          <BinaryVersionRange LowSection="5.1.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="e5f16dce-53aa-41a3-b5c2-4e3c4d4f83c1" Name="Windows: MICROSOFT® VISUAL STUDIO® 2005 signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® VISUAL STUDIO® 2005" BinaryName="*">
+          <BinaryVersionRange LowSection="8.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="e9ac30ef-a976-4d98-8a2f-4e5fd0604250" Name="Windows: BROTHER MFL PRO signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="BROTHER MFL PRO" BinaryName="*">
+          <BinaryVersionRange LowSection="1.45.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="f35a97ed-6735-4c97-a411-9a3e42820853" Name="Program Files: SYSINTERNALS SDELETE signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SYSINTERNALS SDELETE" BinaryName="*">
+          <BinaryVersionRange LowSection="1.61.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="f61aa9ba-791b-433d-bb66-d3d239e1b3a6" Name="Windows: MICROSOFT(R) CONNECTION MANAGER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT(R) CONNECTION MANAGER" BinaryName="*">
+          <BinaryVersionRange LowSection="7.2.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="f846c7e9-ef38-4054-b239-dfdafc15c1ce" Name="Program Files: ADOBE READER WOW HELPER signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE READER WOW HELPER" BinaryName="*">
+          <BinaryVersionRange LowSection="19.10.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="f861dfca-d6df-48ef-8e86-cbf06331538f" Name="Program Files: MICROSOFT OFFICE HELP VIEWER signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT OFFICE HELP VIEWER" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="f998dc8a-e015-4c9a-b14a-4c6d152f1cf1" Name="Program Files: SHIMGENERATOR signed by O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=CHOCOLATEY SOFTWARE, INC., L=TOPEKA, S=KANSAS, C=US" ProductName="SHIMGENERATOR" BinaryName="*">
+          <BinaryVersionRange LowSection="0.8.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="fc611c24-fa02-4441-bed5-56d7215f7f5a" Name="Windows: MICROSOFT® JSCRIPT signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® JSCRIPT" BinaryName="*">
+          <BinaryVersionRange LowSection="8.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="fd21f610-f9bd-4ac2-a1ae-82e9a9c473b6" Name="Program Files: NOTEPAD++ signed by O=NOTEPAD++, L=SAINT CLOUD, S=ILE-DE-FRANCE, C=FR" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=NOTEPAD++, L=SAINT CLOUD, S=ILE-DE-FRANCE, C=FR" ProductName="NOTEPAD++" BinaryName="*">
+          <BinaryVersionRange LowSection="7.6.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="fdc1acd3-549c-46e0-939f-5940a1d9c6ee" Name="Program Files: ADOBE AIR signed by O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ADOBE SYSTEMS, INCORPORATED, L=SAN JOSE, S=CALIFORNIA, C=US" ProductName="ADOBE AIR" BinaryName="*">
+          <BinaryVersionRange LowSection="3.5.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="fe4d09b6-e919-47fb-b6c9-6a6c5573a0c6" Name="Program Files: PLUTIL signed by O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=APPLE INC., L=CUPERTINO, S=CALIFORNIA, C=US" ProductName="PLUTIL" BinaryName="*">
+          <BinaryVersionRange LowSection="1.830.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="fe7b57b6-e4ce-40d9-b966-d61bd8a454c2" Name="Program Files: SELFCERT signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="SELFCERT" BinaryName="*">
+          <BinaryVersionRange LowSection="16.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="feae294c-82fb-4ce2-85e5-4e7f7559d154" Name="Program Files: MICROSOFT® MASHUP RUNTIME signed by O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT® MASHUP RUNTIME" BinaryName="*">
+          <BinaryVersionRange LowSection="2.61.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePathRule Id="3185fd0f-71d8-4e50-9810-1171abfb2ea6" Name="Windows: %WINDIR%\*" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="916ef33d-343b-4582-9b3a-618d00ccd118" Name="Windows: %SYSTEM32%\*" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="921cc481-6e17-4653-8f75-050b80acca20" Name="(Default Rule) All files located in the Program Files folder" Description="Allows members of the Everyone group to run applications that are located in the Program Files folder." UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%PROGRAMFILES%\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="a61c8b2c-a319-4cd0-9690-d2177cad7b51" Name="(Default Rule) All files located in the Windows folder" Description="Allows members of the Everyone group to run applications that are located in the Windows folder." UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="a9d4cc77-10c3-4653-9597-8862f0183fd0" Name="%SYSTEM32%\cmd.exe" Description="" UserOrGroupSid="S-1-5-21-1716914095-909560446-1177810406-1003" Action="Deny">
+      <Conditions>
+        <FilePathCondition Path="%SYSTEM32%\cmd.exe" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="fd686d83-a829-4351-8ff4-27c7de5755d2" Name="(Default Rule) All files" Description="Allows members of the local Administrators group to run all applications." UserOrGroupSid="S-1-5-32-544" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="*" />
+      </Conditions>
+    </FilePathRule>
+    <FileHashRule Id="0da06b4b-457e-4298-9886-4a985cbbb0a0" Name="Program Files: MSOICONS.EXE" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xFCCF9125E01C23D719CC5E71A9F65BB772FD64DFBD244CD9DD158B1F630F2F21" SourceFileName="MSOICONS.EXE" SourceFileLength="625328" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="0ec57ef1-bde4-4ce0-8ebb-b0923295ba44" Name="Program Files: WebKit2WebProcess.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xA16DCF2545DEB0AB8D98BA42EC26093E6C01DE0E804FD1CDDC339715F8DAFC8C" SourceFileName="WebKit2WebProcess.exe" SourceFileLength="14664" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="16eca4ed-22bc-456e-aab4-a8917563ff19" Name="Program Files: AcroLayoutRecognizer.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xF6CB402CD28C49AA23A715C7BD00FC08E0CEC842459DAA8D61AF146B61281054" SourceFileName="AcroLayoutRecognizer.exe" SourceFileLength="12288" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="2e6f9982-dc62-4d4d-95e7-12694f63b9c4" Name="Program Files: officedeploymenttool_11107-33602.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x572193C3FEC9F20691CEAB358846E22D7D354376203ECEB44469030B8168A13E" SourceFileName="officedeploymenttool_11107-33602.exe" SourceFileLength="2783528" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="343e4a6e-d467-4b25-8092-349348f9a01b" Name="Program Files: AdobeARMHelper.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xD3863ADE873A501E92CA66A1CFAFDE1C29C1C3A9A24AF00AB41AE5592586EBE5" SourceFileName="AdobeARMHelper.exe" SourceFileLength="423464" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="3f04485e-95e7-4112-8141-d9b6c2236c7a" Name="Program Files: hibernate4win.exe, lua5.1a.exe, lua5.1a_gui.exe..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x34494EFA3740C62101BDDCC2464B3DA5A74D8D808F64E2C080724B5B699253BC" SourceFileName="hibernate4win.exe" SourceFileLength="13824" />
+          <FileHash Type="SHA256" Data="0x4890AF31C0F10CBDB18BB108D28E4052A5D9A468D3D5D6C751888EE044609079" SourceFileName="lua5.1a.exe" SourceFileLength="63488" />
+          <FileHash Type="SHA256" Data="0x104156FBAEF034BB432E22CDF0548003346564E58EB94320C204D292CAC5B394" SourceFileName="lua5.1a_gui.exe" SourceFileLength="113664" />
+          <FileHash Type="SHA256" Data="0xDE753C017946A5E075997E569192D37254C1636FA55C498250CFA6F8DDB0259F" SourceFileName="udefrag-dbg.exe" SourceFileLength="131584" />
+          <FileHash Type="SHA256" Data="0xDE288C884F705C49DA725BAF1BEE54075887636392022AFADABB6FEAB541A6C3" SourceFileName="udefrag.exe" SourceFileLength="418304" />
+          <FileHash Type="SHA256" Data="0xA6CD6ADA5340ABDDCF481162841EF0C9C3E189A9F213605F240E809E1495693C" SourceFileName="ultradefrag.exe" SourceFileLength="1248256" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="4290c283-8598-4fd5-8793-3ed56f6a250d" Name="Program Files: AdobeARMHelper.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xD3863ADE873A501E92CA66A1CFAFDE1C29C1C3A9A24AF00AB41AE5592586EBE5" SourceFileName="AdobeARMHelper.exe" SourceFileLength="423464" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="4573105b-c1fb-4bba-9fe1-df83382b1665" Name="Program Files: unins000.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x22C983C0DBEDCF8A5D0E3699F08685F7462C96A8566D1B11BB4F5132391162F7" SourceFileName="unins000.exe" SourceFileLength="1271544" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="4619c1c7-68c4-4b13-a8f6-733943e0563f" Name="Program Files: AdobeARMHelper.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xD3863ADE873A501E92CA66A1CFAFDE1C29C1C3A9A24AF00AB41AE5592586EBE5" SourceFileName="AdobeARMHelper.exe" SourceFileLength="423464" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="4d41b9fa-20a0-4fa0-bc41-a27cfa696ee9" Name="Program Files: uninstall.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x25A5CEDDB19E8C72949F13CE77B9E5676DE2CD8825647E1289E60697774FAF0E" SourceFileName="uninstall.exe" SourceFileLength="91970" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="539f7bb4-d9fd-4f3b-9ce9-532d8610ad83" Name="Program Files: choco.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x1E346F99B470AC9761EE874A7355676948A317810AE204BB176A10B119D861B8" SourceFileName="choco.exe" SourceFileLength="8391816" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="549b3cd9-f3c0-4371-a387-b618e028e3ea" Name="Program Files: 7za.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x491349E3F2BB118758ED2ADB1DCF35461DD1BF67B9E585E9A6095EA6A153BED2" SourceFileName="7za.exe" SourceFileLength="738304" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="5df680e0-2bd3-4384-89df-d233498e3d96" Name="Program Files: clipgrab.exe, ffmpeg.exe, QtWebEngineProcess.exe..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xEAC418A200EE12B17B135D330954471AE05A84784E684D6FDCC59436F6260FE5" SourceFileName="clipgrab.exe" SourceFileLength="1068544" />
+          <FileHash Type="SHA256" Data="0x1B29DA6B6D583C4DCCDED5C1BF732ED9CE4BF01E93424C237E06E737DA4FAFDC" SourceFileName="ffmpeg.exe" SourceFileLength="45602304" />
+          <FileHash Type="SHA256" Data="0x1E9CA5560B05CBE2F624032E3D002DE5D727BEF6DC64F4B992CA7067916FAA4F" SourceFileName="QtWebEngineProcess.exe" SourceFileLength="15872" />
+          <FileHash Type="SHA256" Data="0x4B4703E36EC33822C0BF62CA3073E585BC6BD5D1E45FCBAF95D73FE335FE3D15" SourceFileName="unins000.exe" SourceFileLength="741541" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="633b2ef6-4be4-46c3-b557-663bc05e6904" Name="Program Files: GoogleUpdateComRegisterShell64.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xB51E15E7FFF1D16BD1D686F31CDE47C78CB1B89581195AFD35643F5DBFFB39D7" SourceFileName="GoogleUpdateComRegisterShell64.exe" SourceFileLength="183592" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="7211ed61-4a7e-4a87-bfe6-75823fe3a986" Name="Program Files: Flattener.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x7C7251DDED403B87DEF3CA87EDEA08C157E64574764B7D2F83FCC32210198589" SourceFileName="Flattener.exe" SourceFileLength="39424" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="74f9b12c-3c39-4922-a43e-fac402c597c2" Name="Program Files: RdrCEF.exe, RdrServicesUpdater.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x6CF87D681DBD182F7D677576EAC600DD35B12388EEE1943396DC126192D379D2" SourceFileName="RdrCEF.exe" SourceFileLength="9805808" />
+          <FileHash Type="SHA256" Data="0x5AADAD2BD6EC394007E65DAE29931F4F0A7D7FDFC14B763679E63B8992BCE203" SourceFileName="RdrServicesUpdater.exe" SourceFileLength="26055152" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="7a0a62ed-1dc8-47b2-89c6-ecf3cbff0c3b" Name="Program Files: OSPPREARM.EXE" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x83B32ECA06BB2CD9A96474304CEDCF634FBE7B5200764FC14C65FFC8F3641E2C" SourceFileName="OSPPREARM.EXE" SourceFileLength="160856" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="88e72699-b7e7-4036-bc89-c5c9b0ae896c" Name="Program Files: 7z.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x27DBED728ABBD44E683B3B755A84104EB9ADD1FB1C325129B6CB3D8BC049B07F" SourceFileName="7z.exe" SourceFileLength="289792" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="8f6d5f4f-21ee-4c2b-a1a6-981c7de6241f" Name="Program Files: 7z.exe, 7zFM.exe, 7zG.exe..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x1DD58C8930AEA25A0B0283124570D1799E613CCE17823FF834555A43F3882AEA" SourceFileName="7z.exe" SourceFileLength="290816" />
+          <FileHash Type="SHA256" Data="0xE61B3C01CC6A171AD9D0D8BB44274E4F83AE671DF42A73A28FF11B3F2AF17742" SourceFileName="7zFM.exe" SourceFileLength="534016" />
+          <FileHash Type="SHA256" Data="0x010FA2D207136D7104DA4E861DAF8C5A7B8B59DC2885BE6967FE2914285722C7" SourceFileName="7zG.exe" SourceFileLength="365056" />
+          <FileHash Type="SHA256" Data="0xE390912A82B635DF1ABF27E8A4CC5008F321DD56FC4BE80B0CF2983BE2F8FC6E" SourceFileName="Uninstall.exe" SourceFileLength="14336" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="95526439-afb6-40bd-9e63-b4d502cdf2cd" Name="Program Files: sftp-server.exe, ssh-keysign.exe, sshd.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x8FCA1EAE30C32967D87B59C39459125842D56B3FD497B6780CE36FDEDD4BF96F" SourceFileName="sftp-server.exe" SourceFileLength="88103" />
+          <FileHash Type="SHA256" Data="0xAA40892CBA055FBC0B977C11B96A5B366D01C42A504E61184A7DBC6BB7EDE087" SourceFileName="ssh-keysign.exe" SourceFileLength="502823" />
+          <FileHash Type="SHA256" Data="0x94D0594F7091A4A2FA0976C53D05E8EAEA5A065F555D9BF2E774207D3542B389" SourceFileName="sshd.exe" SourceFileLength="785447" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="adc68d35-244d-47b9-aa00-1c55afe17bdf" Name="Program Files: unins000.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xC5615FCF7FBD5B841F8ECE0D2E2A9CD5B3E073B9AAFAB17209347F1702301757" SourceFileName="unins000.exe" SourceFileLength="1479528" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="af56b532-e681-43f5-9992-769870f92731" Name="Program Files: choco.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x1E346F99B470AC9761EE874A7355676948A317810AE204BB176A10B119D861B8" SourceFileName="choco.exe" SourceFileLength="8391816" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="b203e576-01d5-408c-a1ab-42d4a3bcbca6" Name="Program Files: 7z.exe, Bginfo.exe, Bginfo64.exe..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xE12BE9523BA0FBA1D1391C4D356BA2B7329EB4B9F12EB2FFDD663A22EF466B89" SourceFileName="7z.exe" SourceFileLength="25600" />
+          <FileHash Type="SHA256" Data="0xC4CBC2AA3EB91DFEE1F1C4A95E08D137E1D5243589C08B92F24FEF7E69BC9A27" SourceFileName="Bginfo.exe" SourceFileLength="24576" />
+          <FileHash Type="SHA256" Data="0xE8F1488A38D150F05152BB36E175EE2E753640E9A2A26A4AC4C0F3DC40A2C173" SourceFileName="Bginfo64.exe" SourceFileLength="24576" />
+          <FileHash Type="SHA256" Data="0xE01A8C97FC9F1D5DB2995864336142EE681E6FD3C06B405053ABAE0D74337BA6" SourceFileName="notepad++.exe" SourceFileLength="218112" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="c2dfb6e2-31a0-4ae7-b560-5a86ba1636c0" Name="Program Files: wow_helper.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x207066B406222CE1BBF91C715E03E924BBD85B21AA8BDEF690BC0A5E24D068F2" SourceFileName="wow_helper.exe" SourceFileLength="67072" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="c4be4420-a826-4cd3-9de8-5a1cbb46c6f9" Name="Program Files: QuickTimeUpdateHelper.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xC02F13512F10C06E4531037A6A37F8F09CFD88AA8A9E307D189C938D1E137C3F" SourceFileName="QuickTimeUpdateHelper.exe" SourceFileLength="98304" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="db448d5f-aa04-481b-ae77-83bfd22de9b4" Name="Program Files: VBoxWHQLFake.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x710661C93E411ED7643AD41C8EB1A12130268BAAEFB87F3BBDE7EEC8201AA136" SourceFileName="VBoxWHQLFake.exe" SourceFileLength="423333" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="dfbca963-0b83-4028-82c1-132ba5e68fc7" Name="cmd.exe, regedt32.exe" Description="" UserOrGroupSid="S-1-5-21-1716914095-909560446-1177810406-1003" Action="Deny">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xCFC5937B4DB3A1D5718FE144B621D50B0A337854AB3F5E2DF152B62627F6FD4A" SourceFileName="cmd.exe" SourceFileLength="302592" />
+          <FileHash Type="SHA256" Data="0x1D81F687393050268099F94A09D5C6679942374CB80B697D57C72972F87543A0" SourceFileName="regedt32.exe" SourceFileLength="9216" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="e1a1b094-9d47-4b85-8a67-9fc9fde4e760" Name="Program Files: 7z.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x27DBED728ABBD44E683B3B755A84104EB9ADD1FB1C325129B6CB3D8BC049B07F" SourceFileName="7z.exe" SourceFileLength="289792" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="e56aa31a-9ed3-4e66-801f-4491651c1d0c" Name="Program Files: gldriverquery.exe, gldriverquery64.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xA8F63AC9C5529CE0B59E828802CFC88E22111D96EBB64BF26EEDE13B788C90BC" SourceFileName="gldriverquery.exe" SourceFileLength="46880" />
+          <FileHash Type="SHA256" Data="0x69E743B7A064959B0B317AC83B3E285985C36726BAC06D8B0B65B285677E608B" SourceFileName="gldriverquery64.exe" SourceFileLength="963872" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="e56d63f2-23e8-4b29-9131-570c7aefac00" Name="Program Files: ACCICONS.EXE, misc.exe, PPTICO.EXE..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x60E58DF6F77A6FFE754BC8A553E7FBB1DEBE10E00EBE44A919AE5CCDCC50B8A5" SourceFileName="ACCICONS.EXE" SourceFileLength="3758768" />
+          <FileHash Type="SHA256" Data="0xC5D468FF6423494AFD9075F70678AAC084CE7FD454BB3F8E8948AE11331CDCE7" SourceFileName="misc.exe" SourceFileLength="1037488" />
+          <FileHash Type="SHA256" Data="0x6D48524EF37705FD4379CDC5C74002BD0B124162A26C560C1822022F7606AB04" SourceFileName="PPTICO.EXE" SourceFileLength="3520176" />
+          <FileHash Type="SHA256" Data="0x1CA94FA2C6CE467CA47347E5D83C292063BC2DE53FFFE9BFA3B1B6CBF26563A6" SourceFileName="WORDICON.EXE" SourceFileLength="3026096" />
+          <FileHash Type="SHA256" Data="0x0EE57F6538889345CFC978E4C2F41CC8136C7644CAAFA7A31580C91A1F133DAD" SourceFileName="XLICONS.EXE" SourceFileLength="3696304" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="f14c987f-348d-4a88-9cab-3d008fec79cb" Name="Program Files: AdobeCollabSync.exe, FullTrustNotifier.exe" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0xB8C920E0A6E937D27D329ACDD75A6704EF2C7B3BB5B64E29E617531119D96972" SourceFileName="AdobeCollabSync.exe" SourceFileLength="5928432" />
+          <FileHash Type="SHA256" Data="0xA80699A03602E9D9F9F32D6FECEF6D5E4307E7159EAFADD23B2A6B2B682AC047" SourceFileName="FullTrustNotifier.exe" SourceFileLength="218632" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+    <FileHashRule Id="fc5a9242-ac69-4219-a23e-25b261861f47" Name="Program Files: bash.exe, chmod.exe, chown.exe..." Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FileHashCondition>
+          <FileHash Type="SHA256" Data="0x1C53AA96180307906FD5BC9B480C81B53D977CC7B000D2600E3408E3B7E259F6" SourceFileName="bash.exe" SourceFileLength="6158" />
+          <FileHash Type="SHA256" Data="0x672C583FA00FB6B333C6BCB3E3434449EFA2C398643C6E428E5B6DA172476A6B" SourceFileName="chmod.exe" SourceFileLength="52263" />
+          <FileHash Type="SHA256" Data="0xD46869298D551B5D2DE4CFFA14D3F7722DDAD303A00F2B2E5C2BF8BDA4A393E1" SourceFileName="chown.exe" SourceFileLength="56871" />
+          <FileHash Type="SHA256" Data="0x72732B43EFAF745C4810D016CC287F65EE974856B7AE3D9F7AF6C63EB800A798" SourceFileName="cygrunsrv.exe" SourceFileLength="144413" />
+          <FileHash Type="SHA256" Data="0x47B12253F2083D1153829D2ACEA650046CC104EFAB0DE22075DD2498E17704E2" SourceFileName="editrights.exe" SourceFileLength="16925" />
+          <FileHash Type="SHA256" Data="0xC07AD3223B1D23DFA9E387550AAF50FF079D255E38C0F61B47F4EE6F12FC78F0" SourceFileName="false.exe" SourceFileLength="24615" />
+          <FileHash Type="SHA256" Data="0xFBC8BF5E0EF831E1C7ECCA9610D33855B75B8B2995C385F3A5AEFDC7834F8167" SourceFileName="last.exe" SourceFileLength="13853" />
+          <FileHash Type="SHA256" Data="0xC7755240A552F8E4FB98C4DA7046B73739046C70815795B307C5213DEF340576" SourceFileName="ls.exe" SourceFileLength="121895" />
+          <FileHash Type="SHA256" Data="0xCA13B126850971B837C73A33441CBA127F53E69D282250BD02DD33F880B83263" SourceFileName="md5sum.exe" SourceFileLength="38951" />
+          <FileHash Type="SHA256" Data="0x2A4B1870EF0E17B3E23168EE6D1FD7B43A9475E9BBF043D23AB403A9A3467CB1" SourceFileName="mkdir.exe" SourceFileLength="64039" />
+          <FileHash Type="SHA256" Data="0x982656D570A2D01E6E1E592644C8CB03772EBB5BDE64031A5AD6A2FB191D292D" SourceFileName="mkgroup.exe" SourceFileLength="19997" />
+          <FileHash Type="SHA256" Data="0xE64E13DFCCC97F3F9C65A83E784B723457F743832BE41FF0B16BB9A9EC7FD3D9" SourceFileName="mkpasswd.exe" SourceFileLength="19997" />
+          <FileHash Type="SHA256" Data="0xC02299C5FAEF5C70EDEFF38D438458F75B2B5FB31FBF76A6E11D288BB808D8AE" SourceFileName="mv.exe" SourceFileLength="185383" />
+          <FileHash Type="SHA256" Data="0x02FD66C65E10CCCEB32767A9F3B08FE50284D284150339F456AEC8304D8B715D" SourceFileName="rm.exe" SourceFileLength="115751" />
+          <FileHash Type="SHA256" Data="0xB1DEC79F2DC8A13A8DFFD737597F98B8D33FD9F000E28C010BCC73A4B1B02D35" SourceFileName="scp.exe" SourceFileLength="75815" />
+          <FileHash Type="SHA256" Data="0x68FD3ACF8E29E4B39FB0BEA89369C229525024D8693861C6A37BD6EFDF7A22B4" SourceFileName="sftp.exe" SourceFileLength="131623" />
+          <FileHash Type="SHA256" Data="0xC7FB4BF1DBB8E80E10FBFED71A98EC823BDA6C966410964A00F0F2C9B3A5B466" SourceFileName="sh.exe" SourceFileLength="676903" />
+          <FileHash Type="SHA256" Data="0x3CC30615358B5D4AE0479B9F8A6AA558C3F4677D0C32F16D77265862295FD433" SourceFileName="sha1sum.exe" SourceFileLength="42023" />
+          <FileHash Type="SHA256" Data="0xE93C3DDB197E4A17440CC35A37DC7FAAA6DD99A09D5F565E7F1F8E2029EA820B" SourceFileName="ssh-add.exe" SourceFileLength="370727" />
+          <FileHash Type="SHA256" Data="0xDD278D106D39F1E396A42940CD1C89E4057326797DCA5893D2AF23AB01A49FE5" SourceFileName="ssh-agent.exe" SourceFileLength="374311" />
+          <FileHash Type="SHA256" Data="0x3306435482A0FAC243DDF5BC13CEBBA1D91B3AA282BFF9E906289F1D858AE2B3" SourceFileName="ssh-keygen.exe" SourceFileLength="447015" />
+          <FileHash Type="SHA256" Data="0x8863EE421784EA9E89C2A9C9BE27EADB470103680300306F555C2E0468C83C2F" SourceFileName="ssh-keyscan.exe" SourceFileLength="506919" />
+          <FileHash Type="SHA256" Data="0x890AEB3650303BAA3A538D96215678FD6934BAE681268894BFD6DAF1209032BF" SourceFileName="ssh.exe" SourceFileLength="691751" />
+          <FileHash Type="SHA256" Data="0x1C53AA96180307906FD5BC9B480C81B53D977CC7B000D2600E3408E3B7E259F6" SourceFileName="switch.exe" SourceFileLength="6158" />
+        </FileHashCondition>
+      </Conditions>
+    </FileHashRule>
+  </RuleCollection>
+  <RuleCollection Type="Msi" EnforcementMode="Enabled" />
+  <RuleCollection Type="Script" EnforcementMode="Enabled" />
+</AppLockerPolicy>
