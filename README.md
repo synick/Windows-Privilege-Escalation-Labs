@@ -1,6 +1,6 @@
 # Windows Privilege Escalation Labs
 
-The Windows labs make use of modified Microsoft modern.ie virtual machines hosted in Vagrant Cloud. Updates will be on my blog [https://blog.pentester.com.au](https://blog.pentester.com.au)
+The Windows labs make use of modified Microsoft modern.ie virtual machines hosted in Vagrant Cloud.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ C:\git\Windows-Privilege-Escalation-Labs> set LabIndex=0 && vagrant up
 ```
 The 'LabIndex' is maps to the corresponding Lab file within the labs folder. There are powershell scripts that make various changes to the operating system within the the virtual machine. Within the VagrantFile, there is a difficulty index as well, change from 0 to 1 to slightly increase the difficulty of the labs. This mainly enables some security controls within Windows, like Anti-Virus.
 
-The initial 'vagrant up' will pull down the 10Gb image off vagrant cloud, so go make a cup of tea and watch a short Netflix series.
+The initial 'vagrant up' will pull down the 50Gb image off vagrant cloud, so go make a cup of tea and watch a short Netflix series.
 
 Once you have verified that everything is work, you can change the lab index and proceed to the next one. 
 
