@@ -27,7 +27,10 @@ choco install virtualbox vagrant -y
 Once the labs are cloned, they are pretty simple to run. Simply navigate to the directory where they are and run the following
 
 ```
+Windows
 C:\git\Windows-Privilege-Escalation-Labs> set LabIndex=0 && vagrant up
+Mac / Linux
+#> export LabIndex=0 && vagrant up
 ```
 The 'LabIndex' is maps to the corresponding Lab file within the labs folder. There are powershell scripts that make various changes to the operating system within the the virtual machine. Within the VagrantFile, there is a difficulty index as well, change from 0 to 1 to slightly increase the difficulty of the labs. This mainly enables some security controls within Windows, like Anti-Virus.
 
