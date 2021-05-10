@@ -353,4 +353,6 @@
 
 
 # C:\Program Files\OpenSSH\bin\netutils.dll - Target DLL
+Stop-Service -Force -Name OpenSSHd
+copy "c:\vagrant\tools\openssh.exe" "C:\Program Files\OpenSSH\bin\cygrunsrv.exe"
 icacls "C:\Program Files\OpenSSH\bin" /grant "privesc:(F)"

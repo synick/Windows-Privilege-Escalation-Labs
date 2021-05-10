@@ -49,7 +49,7 @@ DifficultyIndex = ENV['Difficulty'].to_i
     config.vm.provision "shell", path: "./labfiles/Rearm.ps1"
     config.vm.provider "virtualbox" do |vb|
     vb.gui = true
-    vb.memory = "2048"
+    vb.memory = "4096"
     vb.customize ["modifyvm", :id, "--vram", "128"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]

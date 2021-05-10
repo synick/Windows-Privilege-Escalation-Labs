@@ -354,7 +354,14 @@
 
 
 
-
+New-Service -Name "avast" -BinaryPathName '"C:\WINDOWS\System32\wcrmgr.exe"' -StartupType "Automatic"
+New-Service -Name "GaUpdate" -BinaryPathName '"C:\WINDOWS\System32\cmd.exe"' -StartupType "Automatic"
+New-Service -Name "UpdatesWindows" -BinaryPathName '"C:\WINDOWS\System32\.exe"' -StartupType "Automatic"
 
 Takeown /F "C:\Program Files\Windows Media Player\wmpnetwk.exe"
 icacls "C:\Program Files\Windows Media Player\wmpnetwk.exe" /grant 'privesc:(F)'
+
+Takeown /F "C:\Program Files\Google\Update\GoogleUpdate.exe"
+icacls "C:\Program Files\Google\Update\GoogleUpdate.exe" /grant 'privesc:(F)'
+
+
